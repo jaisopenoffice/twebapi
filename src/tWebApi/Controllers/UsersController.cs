@@ -18,7 +18,7 @@ namespace tWebApi.Controllers
         {
             //testing...
             //testing again...
-            _context = context.abc
+            _context = context;
         }
 
         public async Task<IActionResult> Get()
